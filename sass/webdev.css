@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
 }
 
+#color {
+  transition: all 0.5s ease;
+}
+
 .dev_main .container {
   padding-top: 20px;
 }
@@ -45,6 +49,57 @@
     color: rgb(30, 30, 30);
     font-family: "Source Code Pro", monospace;
     font-size: 1rem !important;
+  }
+  .container .card:hover {
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 10px 7px #0e0e0e;
+  }
+  .container .card:hover img {
+    border-radius: 20px;
+  }
+  .container .card:hover .yel {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(252, 252, 103);
+  }
+  .container .card:hover .gre {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(124, 255, 120);
+  }
+  .container .card:hover .blu {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(110, 212, 249);
+  }
+  .container .card:hover .card-title {
+    color: rgba(17, 17, 17, 0.942);
+  }
+  .container .card:hover ul > li > a {
+    color: rgb(22, 22, 22);
+  }
+}
+@media screen and (min-width: 1260px) {
+  .dev_main {
+    min-height: 90vh;
+    background: #bdeaff;
+  }
+  .container {
+    display: flex;
+    padding: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card {
+    margin: 10px;
+    width: 350px;
+  }
+  .container .card .card-title {
+    font-size: 2rem;
+  }
+  .container .card .card-body ul > li > a {
+    color: rgb(30, 30, 30);
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.5rem !important;
   }
   .container .card:hover {
     transition: all 0.3s ease;
