@@ -29,11 +29,13 @@ This Application is Built using HTML, SASS, Bootstrap, JavaScript
 
 ## Screenshots
 
-![App Screenshot](/output.png)
+![App Screenshot](/output3.png)
+
+
+![App Screenshot](/output1.png)
+
 
 ![App Screenshot](/output2.png)
-
-![App Screenshot](/output3.png)
 
 ![App Screenshot](/output4.png/)
 
