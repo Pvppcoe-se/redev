@@ -54,6 +54,10 @@ Go to the project directory
   cd redev
 ```
 
+```bash
+  code .
+```
+
 Start the server
 
 ```bash
