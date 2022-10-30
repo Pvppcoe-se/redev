@@ -1,1 +1,76 @@
-/*# sourceMappingURL=webdev.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.dev_main .container {
+  padding-top: 20px;
+}
+.dev_main .container .card-title {
+  text-align: center;
+  color: rgba(31, 31, 31, 0.942);
+}
+.dev_main .container .onego {
+  visibility: hidden;
+}
+.dev_main .container .card {
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+.dev_main .container .card ul > li > a {
+  color: rgb(30, 30, 30);
+  font-family: "Source Code Pro", monospace;
+}
+
+@media screen and (min-width: 1000px) {
+  .dev_main {
+    background: rgb(189, 234, 255);
+  }
+  .container {
+    display: flex;
+    padding: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .card {
+    margin: 10px;
+    width: 280px;
+  }
+  .container .card .card-title {
+    font-size: 1.7rem;
+  }
+  .container .card .card-body ul > li > a {
+    color: rgb(30, 30, 30);
+    font-family: "Source Code Pro", monospace;
+    font-size: 1rem !important;
+  }
+  .container .card:hover {
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 10px 7px #0e0e0e;
+  }
+  .container .card:hover img {
+    border-radius: 20px;
+  }
+  .container .card:hover .yel {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(252, 252, 103);
+  }
+  .container .card:hover .gre {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(124, 255, 120);
+  }
+  .container .card:hover .blu {
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(110, 212, 249);
+  }
+  .container .card:hover .card-title {
+    color: rgba(17, 17, 17, 0.942);
+  }
+  .container .card:hover ul > li > a {
+    color: rgb(22, 22, 22);
+  }
+}/*# sourceMappingURL=webdev.css.map */
