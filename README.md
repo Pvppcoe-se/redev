@@ -16,7 +16,7 @@ This Application is Built using HTML, SASS, Bootstrap, JavaScript
 
 ## Authors
 
-- [@SikandarJODD](https://github.com/SikandarJODD)
+- [@Sikandar Bhide](https://github.com/SikandarJODD)
 
 
 ## Features
@@ -29,15 +29,15 @@ This Application is Built using HTML, SASS, Bootstrap, JavaScript
 
 ## Screenshots
 
-![App Screenshot](/output3.png)
+![App Screenshot](/output/output3.png)
 
 
-![App Screenshot](/output1.png)
+![App Screenshot](/output/output1.png)
 
 
-![App Screenshot](/output2.png)
+![App Screenshot](/output//output2.png)
 
-![App Screenshot](/output4.png/)
+![App Screenshot](/output//output4.png/)
 
 
 ## Run Locally
