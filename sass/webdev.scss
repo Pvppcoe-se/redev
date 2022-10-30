@@ -8,7 +8,8 @@
 }
 
 body {
-    background: #bdeaff;
+    // background: #bdeaff;
+    background: linear-gradient(to right bottom, #bdeaff,rgb(69, 192, 234));
 }
 
 #color {
@@ -41,9 +42,7 @@ body {
 }
 
 @media screen and (min-width:1000px) {
-    .dev_main {
-        background: rgb(189, 234, 255);
-    }
+    
 
     .container {
         display: flex;
@@ -125,14 +124,14 @@ body {
 @media screen and (min-width:1260px) {
     .dev_main {
         min-height: 90vh;
-        background: #bdeaff;
+        // background: #bdeaff;
     }
 
     .container {
         display: flex;
         padding: none;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
         .card {
             margin: 10px;
@@ -190,17 +189,31 @@ body {
 
     .mid_section {
         h1 {
-            color: rgb(32, 114, 255);
+            color: rgb(22, 118, 227);
             font-size: bold;
             font-size: 2.9rem;
             padding: 15px 20px;
             border: 1px solid black;
             width: 50%;
             margin: auto;
-            background: rgba(28, 28, 28, 0.071);
+            background: transparent;
+            // background: rgba(28, 28, 28, 0.071);
             border-radius: 4px;
-            box-shadow: -10px -10px rgb(49, 49, 49);
+            // box-shadow: -10px -10px rgb(49, 49, 49);
             outline: none;
+            animation: toon 4s forwards 0.5s alternate;
+        }
+    }
+
+    @keyframes toon {
+        from {
+            // transform: translateX(0px) translateY(0px);
+            // box-shadow: 0px 0px rgb(49, 49, 49);
+        }
+
+        to {
+            box-shadow: -10px -10px rgb(49, 49, 49);
+            transform: translateX(10px) translateY(10px);
         }
     }
 }
