@@ -6,9 +6,11 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-#color{
+
+#color {
     transition: all 0.5s ease;
 }
+
 .dev_main {
     .container {
         padding-top: 20px;
@@ -69,10 +71,14 @@
                 // box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
                 border-radius: 20px;
                 transform: translateY(-10px) translateX(-10px);
-                box-shadow: 10px 7px #0e0e0e;
+
+                .shad {
+
+                    box-shadow: 10px 7px #0e0e0e;
+                }
 
                 img {
-                    border-radius: 20px;
+                    border-radius: 20px 20px 0px 0px;
                 }
 
                 .yel {
@@ -99,6 +105,18 @@
                 }
             }
         }
+    }
+
+    .color1 {
+        background: rgba(5, 5, 150, 0.989);
+
+        &:hover {
+            box-shadow: 10px 10px white !important;
+        }
+    }
+
+    .color2 {
+        background: rgb(249, 249, 250);
     }
 }
 

@@ -29,6 +29,9 @@ ScrollReveal().reveal(".one", mintUp);
 const checkdark = document.getElementById("theme");
 const bg = document.getElementById("color");
 const text = document.querySelector(".form-check-label");
+const card = document.querySelectorAll(".card");
+const cardText = document.querySelectorAll(".card-text a");
+
 console.log(checkdark);
 console.log(checkdark.checked);
 checkdark.addEventListener("change", () => {
@@ -36,9 +39,22 @@ checkdark.addEventListener("change", () => {
         text.innerHTML = "Dark";
         console.log(checkdark.checked);
         bg.style.background = "#00041f";
-        
+        // card.forEach((e) => {
+        //     e.classList.remove("shad");
+        //     e.classList.add("color1");
+        // })
+
+
     }
     else {
+        // card.forEach((e) => {
+        //     e.classList.add("shad");
+        //     e.classList.remove("color1")
+        // })
+        // cardText.forEach((e) => {
+        //     // e.classList.remove("color1")
+        //     e.classList.remove('text-white')
+        // })
         text.innerHTML = "Light";
         console.log(checkdark.checked);
         bg.style.background = "#bdeaff";
