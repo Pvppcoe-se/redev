@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(5, 31, 136);
+}
+
+.cpp_main {
+  display: none;
+}
+
+.cpp_content {
+  z-index: 2;
+  min-height: 100vh;
+}
+.cpp_content .box {
+  padding: 15px 10px;
+}
+.cpp_content .box .head {
+  background: rgba(0, 8, 38, 0.919);
+  border: 1px solid white;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all 0.3s ease;
+}
+.cpp_content .box .head h2 {
+  margin-top: 30px;
+}
+.cpp_content .box .head .card {
+  margin: 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: rgb(15, 69, 210);
+  background: linear-gradient(106deg, rgb(15, 69, 210) 24%, rgba(5, 61, 177, 0.9732843821) 79%);
+}
+.cpp_content .box .head .card h1,
+.cpp_content .box .head .card a {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 0.9px;
+  color: rgb(51, 253, 226);
+  text-decoration: none;
+  font-family: "Source Code Pro", monospace;
+}
+.cpp_content .box .head .card .see {
+  display: none;
+}
+.cpp_content .box .head:hover {
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+}
+
+.cpp_resume {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1000px) {
+  .cpp_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 0pc 4%;
+    background: #141E30;
+    background: linear-gradient(to left, #083d7a, #141E30);
+    text-align: center;
+  }
+  .cpp_main h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+    width: 80%;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: -4px -4px 8px rgba(0, 0, 0, 0.6);
+    font-family: "Carter One", cursive;
+    letter-spacing: 1px;
+  }
+  .cpp_main h1 span {
+    font-size: 3.3rem;
+    color: rgb(44, 192, 255);
+    text-shadow: 2px 4px 5px rgb(1, 16, 92);
+  }
+  .cpp_content {
+    background: rgb(5, 31, 136);
+  }
+  .cpp_content .box {
+    padding: 15px 10px;
+  }
+  .cpp_content .box .head {
+    background: linear-gradient(to right, rgba(0, 8, 38, 0.919), rgba(1, 18, 88, 0.956), rgba(0, 8, 38, 0.919));
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  .cpp_content .box .head h2 {
+    margin-top: 20px;
+    font-size: 2.4rem;
+  }
+  .cpp_content .box .head .boc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 3px 4%;
+  }
+  .cpp_content .box .head .boc .card {
+    width: 330px;
+    margin: 10px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(51, 245, 232, 0.868);
+  }
+  .cpp_content .box .head .boc .card:hover {
+    border: 1px solid rgba(12, 12, 12, 0.868);
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+  }
+  .cpp_content .box .head .boc .card:hover h1 a {
+    transition: all 0.3s ease;
+    color: rgb(13, 13, 13);
+  }
+  .cpp_content .box .head .card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background: rgb(15, 69, 210);
+    background: linear-gradient(106deg, rgb(15, 69, 210) 24%, rgba(5, 61, 177, 0.9732843821) 79%);
+  }
+  .cpp_content .box .head .card h1,
+.cpp_content .box .head .card a {
+    text-align: left;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    color: rgb(51, 253, 226);
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  .cpp_content .box .head .card .see {
+    display: block;
+  }
+  .cpp_content .box .head:hover {
+    transition: all 0.3s ease;
+    transform: translateY(-10px);
+  }
+}/*# sourceMappingURL=cppstyle.css.map */
